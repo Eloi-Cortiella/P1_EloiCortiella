@@ -1,11 +1,14 @@
-package org.example;
+package org.example.M9_P2_EloiCortiella;
 
-import javax.crypto.*;
-import java.security.*;
-import javax.crypto.spec.*;
-import java.util.*;
+import javax.crypto.Cipher;
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.SecretKeySpec;
 import java.io.File;
 import java.io.FileInputStream;
+import java.security.*;
+import java.util.Arrays;
 
 public class Crypto {
 

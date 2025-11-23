@@ -1,4 +1,4 @@
-package org.example;
+package org.example.M9_P1_EloiCortiella;
 
 import javax.crypto.SecretKey;
 import java.io.*;
