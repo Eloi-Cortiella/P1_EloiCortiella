@@ -10,17 +10,16 @@ import java.util.Base64;
 
 public class GestorClaus {
 
-    // Constants adaptades a la P4 (canvia nom si cal)
-    private static final String KEYSTORE_PATH = "M9_P3_EloiCortiella.ks"; // fitxer del keystore
-    private static final String KEYSTORE_PASSWORD = "123456";             // storepass
-    private static final String KEY_ALIAS = "myKeys";                     // -alias del keytool
-    private static final String KEY_PASSWORD = "654321";                  // keypass
+    private static final String KEYSTORE_PATH = "M9_P3_EloiCortiella.ks";
+    private static final String KEYSTORE_PASSWORD = "123456";
+    private static final String KEY_ALIAS = "myKeys";
+    private static final String KEY_PASSWORD = "654321";
 
     public static void main(String[] args) {
         try {
             Crypto crypto = new Crypto();
 
-            // Carregar el keystore
+            // Carregar la keystore
             System.out.println("Carregant keystore: " + KEYSTORE_PATH);
             KeyStore ks = crypto.loadKeyStore(KEYSTORE_PATH, KEYSTORE_PASSWORD);
 
@@ -38,7 +37,7 @@ public class GestorClaus {
             }
             PublicKey clauPublica = certEntrada.getPublicKey();
 
-            // Clau privada associada a l'àlies (cal password de la clau)
+            // Clau privada associada a l'àlies
             Key key = ks.getKey(KEY_ALIAS, KEY_PASSWORD.toCharArray());
             if (!(key instanceof PrivateKey)) {
                 System.err.println("L'àlies '" + KEY_ALIAS + "' no té una clau privada associada.");

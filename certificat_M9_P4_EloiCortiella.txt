@@ -1,0 +1,7 @@
+=== CERTIFICAT DIGITAL M9_P4 ===
+Alumne: Eloi Cortiella
+Cicle: DAM2 - Programació de Serveis i Processos
+Assignatura: M9 - PSP (Seguretat i Criptografia)
+
+CLAU PUBLICA (Base64):
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA16oWb65QiEpp7bMYV94zLX1v16YN1qDtuz3TUfOg6zUXJX7zdNllBRL2L8XaH20+m079rijfqJghB1oeMaJzm7ovC0YM0zv+hGC9Kgz/0w5kJ1W0dSIp455c+AtRh0693sDTLeT9TaQX62CtiVDq5xWbWUh+yVvAvSrTD+39M9SV47iZqG1iyQdBxsX0pHVGdw8JtMkahFAdnxn3xUjMj/BDqYB4ubxmrMiZPGbBkCoCRlro3Hdy9KZ9qB+vnH4nnugpvLzP7Ak5kd76Ar4gDnFtcjAenyrt0W+2BXbUKafg1V1ryuINyVnK2dSsp/zvFe8e3HQ1xfGp5gkZaWTrNQIDAQAB
